@@ -1,3 +1,27 @@
+# Initial react curse
+
+I don't have a high level in Javascript and even less in React.
+This is just a [turorial](https://youtu.be/Ke90Tje7VS0) I made to learn the basics.
+
+There is also some notes I take to understand everything and work faster.
+
+## Notes
+
+- `create-react-app`: It is an easy command to create a react app.
+- `npm i bootstrap`: It will install automatically boostrap with the npm package manager.
+- I can import bootstrap (installed with previous command) with: `import 'bootstrap/dist/css/bootstrap.css'` inside *index.js*.
+- A good project structure will have a folder `components` inside `src` folder.
+- We can add HTML classes from `.jsx` file with the attribute className (since class is a reservated word).
+- We should make AJAX Requests from `componentDidMount` method.
+
+## Visual Studio Shortcuts (Extension: Simple React Snippets)
+
+- `imrc`: Import react component
+- `cc`: Create react component
+- `sfc`: Create statless functional component
+- `ctrl + shift + r`: Refactor
+- `f2`: Refactor > rename
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
